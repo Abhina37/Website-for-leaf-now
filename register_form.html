@@ -4,9 +4,6 @@ session_start();
     $_SESSION;
 ?>
 
-
-
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -22,29 +19,51 @@ session_start();
             <header class="header2">
                 <div class="container1">
                     <div class="header1">
-                        <h3>LOGIN FORM</h3>
+                        <h3>REGISTRATION FORM</h3>
                     </div>
                     <form action="insert.php" method="POST" class="form" id="form" autocomplete="off">
                         <div class="form-control">
                             <label>Username</label>
-                            <input type="text" name="user_name" id="username" placeholder="Enter your fullname">
+                            <input type="text" name="" id="username" placeholder="Enter your fullname">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error Msg</small>
+                        </div>
+                        <div class="form-control">
+                            <label>Email</label>
+                            <input type="email" name="" id="email" placeholder="Enter your email">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error Msg</small>
+                        </div>
+                        <div class="form-control">
+                            <label>Phone number</label>
+                            <input type="text" name="" id="phone" placeholder="Enter your number">
                             <i class="fas fa-check-circle"></i>
                             <i class="fas fa-exclamation-circle"></i>
                             <small>Error Msg</small>
                         </div>
                         <div class="form-control">
                             <label>Password</label>
-                            <input type="password" name="password" id="password" placeholder="Enter your password">
+                            <input type="password" name="" id="password" placeholder="Enter your password">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error Msg</small>
+                        </div>
+                        <div class="form-control">
+                            <label>Confirm password</label>
+                            <input type="password" name="" id="cpassword" placeholder="Enter your password again">
                             <i class="fas fa-check-circle"></i>
                             <i class="fas fa-exclamation-circle"></i>
                             <small>Error Msg</small>
                         </div>
                         <input type="submit" value="Submit" class="btn" name="">
-                    </form>    
+                        <p><a class="ref_login" href="login_page.html"> For login click here</a></p>
+                    </form>
                 </div>
             </header>
         </header>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-        <script type="text/javascript" src="login_validate.js"></script>
-    </body>
+        <script type="text/javascript" src="register_validate.js"></script>
+    </body>        
 </html>

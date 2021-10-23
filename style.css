@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500');
+
+.ref_login{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(99, 207, 240);
+}
+
+
+
+
+html{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: silver;
+}
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav ul{
+    margin: 0;
+}
+
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: rgba(236, 190, 236, 0.712);
+    text-decoration: none;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+   
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.whole-header{
+    background-color:rgba(0, 0, 0, .6) ;
+    background-image: url("bg.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 120px;
+    padding-top: 10px;
+}
+
+.main-section{
+    background-color: wheat;
+}
+
+.header2{
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+
+h2{
+    text-align: center;
+}
+
+/*for monstera*/
+.ref1{
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
+.maindiv1{
+    width: 60%;
+    height: 300px;
+    position: relative;
+    left: 50%;
+    margin-top: 170px;
+    transform: translate(-50%, -50%);
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/gettyimages-1205923822-612x612-1597694031.jpg?fill=2:1&resize=640:*');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 9px grey;
+    animation: slider1 10s infinite linear;
+}
+
+@keyframes slider1{
+    0%{ background-image: url('https://hips.hearstapps.com/hmg-prod/images/gettyimages-1205923822-612x612-1597694031.jpg?fill=2:1&resize=640:*'); }
+    35%{ background-image: url('https://images.unsplash.com/photo-1617173944883-6ffbd35d584d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW9uc3RlcmElMjBsZWF2ZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80'); }
+    75%{ background-image: url('https://geturpet.com/wp-content/uploads/2021/01/Monstera-Deliciosa-1.jpg'); }
+}
+
+/*epipremnum*/
+.ref2{
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
+.maindiv2{
+    width: 60%;
+    height: 300px;
+    position: relative;
+    left: 50%;
+    margin-top: 170px;
+    transform: translate(-50%, -50%);
+    background-image: url('https://s3.amazonaws.com/mygardenlife.com/plant-library/full/6041_49.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 9px grey;
+    animation: slider2 10s infinite linear;
+}
+
+@keyframes slider2{
+    0%{ background-image: url('https://s3.amazonaws.com/mygardenlife.com/plant-library/full/6041_49.jpg'); }
+    35%{ background-image: url('https://s3.amazonaws.com/eit-planttoolbox-prod/media/images/Epipremnum_aureum_madaise_ccbyncnd2.0.jpg'); }
+    75%{ background-image: url('https://5.imimg.com/data5/SQ/RJ/YU/SELLER-48424761/money-plant-500x500.jpg'); }
+}
+
+/*Dracaena*/
+.ref3{
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
+.maindiv3{
+    width: 60%;
+    height: 300px;
+    position: relative;
+    left: 50%;
+    margin-top: 170px;
+    transform: translate(-50%, -50%);
+    background-image: url('https://i.pinimg.com/originals/2e/e3/99/2ee399f746cdc540d150ec2c76bf179e.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 9px grey;
+    animation: slider3 10s infinite linear;
+}
+
+@keyframes slider3{
+    0%{ background-image: url('https://i.pinimg.com/originals/2e/e3/99/2ee399f746cdc540d150ec2c76bf179e.jpg'); }
+    35%{ background-image: url('https://nationbloom.com/img/Nurseryserve-Dracaena-Massangeana-Dracaena-Fragrans.jpg'); }
+    75%{ background-image: url('https://www.nature-and-garden.com/wp-content/uploads/sites/4/2018/08/dracaena-massangeana.jpg'); }
+}
+
+/*spathiphyllum*/
+.ref4{
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
+.maindiv4{
+    width: 60%;
+    height: 300px;
+    position: relative;
+    left: 50%;
+    margin-top: 170px;
+    transform: translate(-50%, -50%);
+    background-image: url('http://plantsrescue.com/wp-content/uploads/2013/10/Spathiphyllum-wallisii.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 9px grey;
+    animation: slider4 10s infinite linear;
+}
+
+@keyframes slider4{
+    0%{ background-image: url('http://plantsrescue.com/wp-content/uploads/2013/10/Spathiphyllum-wallisii.jpg'); }
+    35%{ background-image: url('https://cdn11.bigcommerce.com/s-zblsjt2w7v/images/stencil/1280x1280/products/370/632/C28-4893__93408.1457716221.jpg?c=2'); }
+    75%{ background-image: url('https://images.squarespace-cdn.com/content/v1/50db5688e4b00220dc71db15/1453139960668-YX5O16DH6INOSMDZLX2P/image-asset.jpeg'); }
+}
+
+/*Bromeliad*/
+.ref5{
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
+.maindiv5{
+    width: 60%;
+    height: 300px;
+    position: relative;
+    left: 50%;
+    margin-top: 170px;
+    transform: translate(-50%, -50%);
+    background-image: url('https://i0.wp.com/www.jaydeemahs.com/wp-content/uploads/2020/08/Bromeliad2-e1597430110925.png?resize=735%2C681&ssl=1');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 9px grey;
+    animation: slider5 10s infinite linear;
+}
+
+@keyframes slider5{
+    0%{ background-image: url('https://i0.wp.com/www.jaydeemahs.com/wp-content/uploads/2020/08/Bromeliad2-e1597430110925.png?resize=735%2C681&ssl=1'); }
+    35%{ background-image: url('https://www.thespruce.com/thmb/nvKzZqNQv1Mo0OxTYq99ZCUWAbM=/4185x2790/filters:fill(auto,1)/grow-bromeliads-indoors-1902667-06-f38c8f2549fb4685ba711653eae30fff.jpg'); }
+    75%{ background-image: url('https://www.thespruce.com/thmb/zyEZGsoBPYnqwBaiuV08Id_pbtA=/3246x3246/smart/filters:no_upscale()/growing-bromeliads-at-home-1403144-01-25c7fca7539649b8b471bb715e6ea8fe.jpg'); }
+}
+
+/*Zanzibar*/
+.ref6{
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
+.maindiv6{
+    width: 60%;
+    height: 300px;
+    position: relative;
+    left: 50%;
+    margin-top: 170px;
+    transform: translate(-50%, -50%);
+    background-image: url('https://i.etsystatic.com/10494852/r/il/9f3b6c/3302095758/il_fullxfull.3302095758_n6qg.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 9px grey;
+    animation: slider6 10s infinite linear;
+}
+
+@keyframes slider6{
+    0%{ background-image: url('https://i.etsystatic.com/10494852/r/il/9f3b6c/3302095758/il_fullxfull.3302095758_n6qg.jpg'); }
+    35%{ background-image: url('https://cdn.shopify.com/s/files/1/0812/7647/products/Screenshot2020-04-2716.56.14.png?v=1587970575'); }
+    75%{ background-image: url('https://inbloomflorist.flowermanager.net/wp-content/uploads/sites/23/2020/10/ZZ-Plant-50-of-6-1-960x1200.jpg'); }
+}
+
+.nav{
+    color: lightgreen;
+    text-decoration: none;
+}
+/* for main heading for page start*/
+.leaf{
+    text-align: center;
+    margin: 0;
+    margin-bottom: -40px;
+    margin-top: 30px;
+    padding-bottom: 60px;
+    font-size: 4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    color: darkseagreen;
+}
+/* for main heading for page end*/
+
+/* for main footer start*/
+.main-footer{
+    background-color: #58ccf2;
+    color: white;
+    padding: 1.2em 0;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img{
+    width: 40px;
+    height: 40px;
+}
+/* for main footer ends*/
+
+/* for main footer heading  start*/
+.web-leaf{
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+}
+/* for main footer heading ends*/
+
+/* for cart section start*/
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #56ccf2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #2d9cd8;
+}
+
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image{
+    height: 250px;
+}
+
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price{
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row{
+    display: flex;
+}
+
+.cart-item{
+    width: 45%;
+}
+
+.cart-price{
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity{
+    width: 35%;
+}
+
+.cart-item-title{
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger{
+    color: white;
+    background-color: #eb5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #cc4c4c;
+}
+
+.cart-quantity-input{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56ccf2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 25px;
+}
+
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column{
+    border: none;
+}
+
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price{
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase{
+    display: block;
+    margin: 40px auto 40px auto;
+    font-size: 1.75em;
+}
+
+.container1{
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: lightblue, lightcyan;
+    overflow: hidden;
+    width: calc(100vw - 65vw);
+    max-width: 100%;
+}
+/* for cart section ends*/
+
+/* for registration form start*/
+.header1{
+    background:lightgrey;
+    padding: 10px 0;
+}
+
+.header1 h3{
+    color: #222;
+    font-family: monospace;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form{
+    padding: 40px;
+    padding-right: -20px;
+}
+
+.form-control{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+    width: 100%;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-family: monospace;
+    font-size: 14px;
+    padding: 12px;
+}
+.form-control input:focus{
+    outline: 0;
+    border-color: #777;
+}
+
+.form-control.success input {
+    border-color: #1ae46e;
+}
+
+.form-control.error input {
+    border-color: #e72711;
+}
+
+.form-control i{
+    position: absolute;
+    right: 12px;
+    top: 38px;
+    visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+
+.form-control.error small{
+    visibility: visible;
+}
+
+.form-control small{
+    color: #e74c3c;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
+
+
+
+.form .btn{
+    background:lightgrey;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: #fff;
+    display: block;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 15px 0;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+
+.form .btn:hover{
+    background: darkgrey;
+}
+
+@media(max-width:998px) {
+    .container1{
+        width: calc(100vw - 35vw);
+        max-width: 100%;
+    }
+}
+/* for registration form ends*/
